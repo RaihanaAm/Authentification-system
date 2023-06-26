@@ -1,0 +1,216 @@
+// **** fonts
+@font-face {
+    font-family: "dummy";
+    src: url(../../../../public/fonts/Yellowtail-Regular.ttf);
+}
+@font-face {
+    font-family: "pop-regular";
+    src: url(../../../../public/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "pop-semibold";
+    src: url(../../../../public/fonts/Poppins-SemiBold.ttf);
+}
+
+
+
+
+
+.contenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+// && left side
+.Mcarousel {
+    width: 40vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    background-position: 0% 78%;
+    background-repeat: no-repeat;
+    // filter: brightness(0.9);
+    background-size: cover;
+    background-image: url(../../../../public/images/tests.jpg);
+
+    .text {
+        width: 30vw;
+        font-family:"pop-regular";
+        position: absolute;
+        top: 70px;
+        // padding: 20px;
+        text-align: center;
+
+        h4 {
+            font-weight: bold;
+            color:  #406b29;
+        }
+
+        p {
+            margin-top: 15px;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+        }
+    }
+
+    .imgg {
+        // height: 100vh;
+        height: 615px;
+        width: 540px;
+        // background-position: center;
+        // background-size: 10% 18%;
+    }
+}
+
+//&& right side
+
+.authent ,.log {
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    .welcome{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        h1{
+            color: #406b29;
+            font-size: 50px;
+            font-family: "dummy";
+            text-align: center;
+        }
+        p{
+            color: rgb(143, 143, 143);
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+    
+    .form {
+        // height: 20vh;
+        .label {
+            font-size: 19px;
+            color: #376a22;
+        }
+        
+        .input {
+            outline: none;
+            color: rgb(63, 63, 63);
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 12px;
+            width: 520px;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid #32473973;
+        }
+        .submit {
+            text-align: center;
+            margin-left: 130px;
+            margin-top: -10px;
+            font-size: 18px;
+            color: white;
+            width: 280px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color:#3e6f2d;
+        }
+        .submit:hover{
+            cursor: pointer;
+            background-color: #174c02;
+        }
+        .submit1 {
+            text-align: center;
+            margin-left: 130px;
+            margin-top: 10px;
+            font-size: 18px;
+            color: white;
+            width: 280px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color:#3e6f2d;
+        }
+        .submit1:hover{
+            cursor: pointer;
+            background-color: #174c02;
+        }
+    }
+    .account{
+        text-align: center;
+        margin-top: 15px;
+        p{
+            font-size: 14px;
+            span{
+                color:#3e6f2d;
+                font-size: 16px;
+
+                font-weight: bolder;
+            }
+            span:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
+// &&&&&&& page actuelle
+
+.logo{
+    font-family: "dummy";
+    font-size: 45px;
+    color: #376a22;
+}
+.nav_text{
+    font-size: 20px;
+    color: #545454;
+}
+.decon{
+    background-color: #406b29;
+    color: white;
+    margin-right: 30px;
+}
+.contex{
+    margin-top: 0;
+    height: 100vh;
+    background-size: 38%;
+    background-position: 85% 95%;
+    background-image: url(../../../../public/images/re.png);
+    background-repeat: no-repeat;
+}
+.tex_cont{
+    margin-top: 45px;
+    margin-left: 60px;
+    width: 50vw;
+    h1{
+        font-size: 65px;
+        color: #000000;
+    }
+    p{
+        font-size: 20px;
+        // text-align: center;
+    }
+}
+.yellow{
+    background-color: #ff9d33;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 190px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
